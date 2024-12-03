@@ -1,0 +1,9 @@
+# Looping Through a Slice
+players = ['eli','lily','melody','mariso','bo']
+print("Here are the first three players on the team:")
+for player in players[0:3]:
+    print(player.title())
+# Output: Here are the first three players on the team:
+# Eli
+# Lily
+# Melody
